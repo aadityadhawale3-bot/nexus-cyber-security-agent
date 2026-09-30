@@ -1,0 +1,30 @@
+[
+  {
+    "intelId": "INTEL-CVE-2026-X",
+    "domain": "cryptography",
+    "description": "Side-channel timing attacks exposing private exponents in un-blinded RSA implementations.",
+    "remediation": "Implement structural cryptographic blinding parameters before execution of modular exponentiation pipelines.",
+    "timestamp": 1790352455579
+  },
+  {
+    "intelId": "INTEL-CWE-89-SQLI",
+    "domain": "application_security",
+    "description": "Un-sanitized SQL query parameters enabling arbitrary query manipulation and database exfiltration.",
+    "remediation": "Enforce parameterized prepared statements and ORM query binding across all persistence layers.",
+    "timestamp": 1790351044330
+  },
+  {
+    "intelId": "INTEL-CWE-787-OOB",
+    "domain": "system_security",
+    "description": "Out-of-bounds heap write leading to control-flow hijacking and arbitrary code execution.",
+    "remediation": "Adopt memory-safe language patterns, enable ASLR, DEP/NX, and stack canary enforcement.",
+    "timestamp": 1790351044331
+  },
+  {
+    "intelId": "INTEL-CRYPTO-MD5-SHA1",
+    "domain": "cryptography",
+    "description": "Cryptographic hash collision vulnerabilities in MD5 and SHA-1 compromising digital signature validity.",
+    "remediation": "Mandate SHA-256 or SHA-3 for integrity verification, and BLAKE2/Argon2id for password hashing.",
+    "timestamp": 1790351044332
+  }
+]

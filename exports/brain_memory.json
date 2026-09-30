@@ -1,0 +1,63 @@
+[
+  {
+    "id": "user_fact_1790349049577",
+    "document": "my secret project code name is Project Valkyrie",
+    "metadata": {
+      "category": "user_preference",
+      "source": "chat"
+    },
+    "timestamp": 1790349049578
+  },
+  {
+    "id": "user_fact_1790349049608",
+    "document": "about my secret project?",
+    "metadata": {
+      "category": "user_preference",
+      "source": "chat"
+    },
+    "timestamp": 1790349049608
+  },
+  {
+    "id": "user_fact_1790349109568",
+    "document": "my secret project code name is Project Valkyrie",
+    "metadata": {
+      "category": "user_preference",
+      "source": "chat"
+    },
+    "timestamp": 1790349109568
+  },
+  {
+    "id": "user_fact_1790351221001",
+    "document": "my secret project code name is Project Valkyrie",
+    "metadata": {
+      "category": "user_preference",
+      "source": "chat"
+    },
+    "timestamp": 1790351221001
+  },
+  {
+    "id": "user_fact_1790352445346",
+    "document": "my secret project code name is Project Valkyrie",
+    "metadata": {
+      "category": "user_preference",
+      "source": "chat"
+    },
+    "timestamp": 1790352445347
+  },
+  {
+    "id": "user_profile_01",
+    "document": "The user operates a software agency specializing in AI automation tools and prefers Python architecture.",
+    "metadata": {
+      "category": "user_preferences"
+    },
+    "timestamp": 1790611391845
+  },
+  {
+    "id": "project_specs_01",
+    "document": "Project Alpha requires an SQLite database backend with an MCP interface standard.",
+    "metadata": {
+      "category": "projects"
+    },
+    "timestamp": 1790611391846
+  }
+]

@@ -1,0 +1,18 @@
+"N.E.X.U.S. AUTOMATED BILLING & TAX INVOICE SYSTEM"
+"Invoice No","INV-154556","Date","14/9/2026"
+"Client Name","Enterprise Client","Architect","Mr. Aaditya Dhavale Sir"
+
+"Item No","Description","Quantity","Unit Rate (INR)","Amount (INR)","GST Rate"
+"1","High-Performance Workstation Setup","2","85000","=C6*D6","18%"
+"2","Cloud Neural Processing Cluster","4","32000","=C7*D7","18%"
+"3","OS Architecture & Hardening License","1","45000","=C8*D8","18%"
+"4","Network Gateway & Security Router","3","14500","=C9*D9","18%"
+"5","Data Pipeline & Backup Systems","2","22000","=C10*D10","18%"
+
+"SUBTOTAL","","","","=SUM(E6:E10)",""
+"CGST (9%)","","","","=E12*0.09",""
+"SGST (9%)","","","","=E12*0.09",""
+"GRAND TOTAL (INR)","","","","=E12+E13+E14",""
+"NET PAYABLE (ROUNDED)","","","","=ROUND(E15,0)",""
+
+"Authorized Signatory: Mr. Aaditya Dhavale Sir","","","Generated autonomously by N.E.X.U.S."

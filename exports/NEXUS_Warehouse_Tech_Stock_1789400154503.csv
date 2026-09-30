@@ -1,0 +1,16 @@
+"N.E.X.U.S. AUTOMATED INVENTORY & STOCK TRACKING MATRIX"
+"Generated Date","14/9/2026, 9:05:54 pm","System","N.E.X.U.S. Cyber OS"
+"Inventory Controller","Operations Command","Creator","Mr. Aaditya Dhavale Sir"
+
+"Item Code","Product Name","Category","Stock Qty","Unit Cost (INR)","Reorder Level","Total Stock Value (INR)","Stock Status"
+"SKU-101","Core i9 Neural Processor","Hardware","45","42000","20","=D6*E6","=IF(D6<=F6,"REORDER REQUIRED","IN STOCK")"
+"SKU-102","DDR5 64GB High-Speed RAM","Memory","80","18500","30","=D7*E7","=IF(D7<=F7,"REORDER REQUIRED","IN STOCK")"
+"SKU-103","4TB NVMe Enterprise SSD","Storage","15","26000","25","=D8*E8","=IF(D8<=F8,"REORDER REQUIRED","IN STOCK")"
+"SKU-104","10Gbps Fiber Network Card","Networking","60","9500","15","=D9*E9","=IF(D9<=F9,"REORDER REQUIRED","IN STOCK")"
+"SKU-105","1200W Titanium Power Unit","Power","10","19000","12","=D10*E10","=IF(D10<=F10,"REORDER REQUIRED","IN STOCK")"
+
+"TOTAL INVENTORY ASSET VALUE","","","","","","=SUM(G6:G10)",""
+"TOTAL UNITS IN STOCK","","","=SUM(D6:D10)","","","",""
+"AVERAGE UNIT COST","","","","=AVERAGE(E6:E10)","","",""
+
+"Inventory Status: All formulas live and functional in Microsoft Excel."

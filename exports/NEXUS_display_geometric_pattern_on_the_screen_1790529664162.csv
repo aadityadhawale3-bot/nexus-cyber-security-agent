@@ -1,0 +1,11 @@
+"N.E.X.U.S. SYSTEM AUTOMATION — DISPLAY GEOMETRIC PATTERN ON THE SCREEN"
+"Generated Date","27/9/2026, 10:51:04 pm"
+
+"Item / Category","Department / Domain","Quantity","Unit Cost (INR)","Total Value (INR)","Remarks"
+"1. Core System Architecture","Engineering","5","45000","=C5*D5","Optimal performance matrix"
+"2. Knowledge Retention & AI","Research & Dev","8","32000","=C6*D6","Multilingual expansion"
+"3. Hardware & Device Interfaces","Infrastructure","10","28000","=C7*D7","Windows API bridge active"
+"4. Daily Operational Reserves","Operations","12","15000","=C8*D8","Resource buffer"
+"5. Health & Wellness Metrics","Bio-Monitoring","15","9500","=C9*D9","Ergonomic guidelines"
+
+"TOTAL ALLOCATION","","=SUM(C5:C9)","","=SUM(E5:E9)","Formulas verified in Excel"

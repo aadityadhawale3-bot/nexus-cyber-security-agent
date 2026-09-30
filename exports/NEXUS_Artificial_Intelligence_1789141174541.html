@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Artificial Intelligence — N.E.X.U.S. Deck</title>
+  <style>
+    * { margin:0; padding:0; box-sizing:border-box; font-family:'Segoe UI', sans-serif; }
+    body { background:#020813; color:#e0f2fe; overflow:hidden; display:flex; align-items:center; justify-content:center; height:100vh; }
+    .slide { display:none; width:90vw; max-width:1100px; height:80vh; background:#041026; border:2px solid #00e5ff; border-radius:12px; padding:60px; box-shadow:0 0 40px rgba(0,229,255,0.3); position:relative; }
+    .slide.active { display:flex; flex-direction:column; justify-content:space-between; }
+    h1 { font-size:42px; color:#00e5ff; text-transform:uppercase; letter-spacing:0.1em; border-bottom:2px solid #00e5ff; padding-bottom:16px; margin-bottom:24px; text-shadow:0 0 16px rgba(0,229,255,0.6); }
+    h2 { font-size:24px; color:#38bdf8; margin-bottom:20px; }
+    ul { font-size:20px; line-height:2; padding-left:30px; color:#bae6fd; }
+    .nav { position:absolute; bottom:20px; right:30px; display:flex; gap:12px; }
+    button { padding:10px 20px; background:#00e5ff; color:#020813; border:none; border-radius:6px; font-weight:bold; cursor:pointer; font-size:14px; box-shadow:0 0 14px rgba(0,229,255,0.5); }
+    button:hover { background:#80f5ff; }
+    .footer { font-size:12px; color:#38bdf8; letter-spacing:0.15em; }
+  </style>
+</head>
+<body>
+  <div class="slide active" id="s1">
+    <div>
+      <div class="footer">N.E.X.U.S. AUTONOMOUS INTELLIGENCE</div>
+      <h1>Artificial Intelligence</h1>
+      <h2>Executive Summary & System Architecture</h2>
+      <ul>
+        <li>Objective: Strategic breakdown and actionable execution vectors for Artificial Intelligence.</li>
+        <li>Generated autonomously via N.E.X.U.S. Neural System Integration.</li>
+        <li>Framework: First-principles analysis with modular scalability.</li>
+      </ul>
+    </div>
+    <div class="footer">SLIDE 1 / 3 — PRESS 'NEXT' TO ADVANCE</div>
+  </div>
+
+  <div class="slide" id="s2">
+    <div>
+      <div class="footer">N.E.X.U.S. AUTONOMOUS INTELLIGENCE</div>
+      <h1>Key Pillars & Analysis</h1>
+      <h2>Core Vectors for Artificial Intelligence</h2>
+      <ul>
+        <li>1. Foundation: Clear structural parameters and eliminating friction points.</li>
+        <li>2. Acceleration: Deploying high-leverage workflows and automated pipelines.</li>
+        <li>3. Quality & Assurance: Continuous measurement, feedback loops, and optimization.</li>
+      </ul>
+    </div>
+    <div class="footer">SLIDE 2 / 3</div>
+  </div>
+
+  <div class="slide" id="s3">
+    <div>
+      <div class="footer">N.E.X.U.S. AUTONOMOUS INTELLIGENCE</div>
+      <h1>Action Protocol & Next Steps</h1>
+      <h2>Immediate Execution Trajectory</h2>
+      <ul>
+        <li>Phase A: Resource allocation and environment configuration.</li>
+        <li>Phase B: Iterative sprint execution and milestone validation.</li>
+        <li>Phase C: Scale, refine, and deploy mission-critical objectives.</li>
+      </ul>
+    </div>
+    <div class="footer">SLIDE 3 / 3 — COMPLETE</div>
+  </div>
+
+  <div class="nav">
+    <button onclick="prev()">PREVIOUS</button>
+    <button onclick="next()">NEXT</button>
+  </div>
+
+  <script>
+    let cur = 1;
+    function show(n) {
+      document.querySelectorAll('.slide').forEach((s, i) => s.classList.toggle('active', i === n - 1));
+    }
+    function next() { if(cur < 3) cur++; show(cur); }
+    function prev() { if(cur > 1) cur--; show(cur); }
+    window.addEventListener('keydown', e => {
+      if(e.key === 'ArrowRight' || e.key === ' ') next();
+      if(e.key === 'ArrowLeft') prev();
+    });
+  </script>
+</body>
+</html>
