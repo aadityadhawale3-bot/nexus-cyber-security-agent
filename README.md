@@ -18,7 +18,7 @@
 
 ## 🚀 Project Overview
 
-**N.E.X.U.S** is an intelligent cyber security assistant built with Python and Next.js using the **Google GenAI SDK (Gemini API)**. It scans local source code for exposed credentials and vulnerabilities via a beautifully rendered cybernetic 3D orb interface, developed by **Mr. Aaditya Dhavale Sir** for the **Kyoto University of Advanced Science (KUAS) Portfolio**.
+**N.E.X.U.S** is an intelligent cyber security assistant built with Python and Next.js using the **Google GenAI SDK (Gemini API)**. It scans local source code for exposed credentials and vulnerabilities via a beautifully rendered cybernetic 3D orb interface, developed by **Mr. Aaditya Dhavale Sir**
 
 ---
 
